@@ -4,7 +4,7 @@ import Menu from "./pages/Menu.jsx";
 import SeasonalDishes from "./pages/SeasonalDishes.jsx";
 import InsideCafe from "./pages/InsideCafe.jsx";
 import Delivery from "./pages/Delivery.jsx";
-import Aboutus from "./pages/Aboutus.jsx";
+import Aboutus from "./pages/AboutUs.jsx";
 import Advocacy from "./pages/Advocacy.jsx";
 import { Route, Routes } from "react-router-dom";
 
