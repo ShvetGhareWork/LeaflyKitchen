@@ -1,5 +1,5 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const TextHeader = ({ text }) => {
   const menuVariants = {
     hidden: { opacity: 0 },

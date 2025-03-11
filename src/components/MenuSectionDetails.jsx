@@ -1,6 +1,7 @@
 import DetailCards from "./DetailCards.jsx"; // Ensure you import your card component
 import TextHeader from "./TextHeader.jsx";
 import Onscroll from "../Reactbits/OnScroll.jsx";
+import { motion } from "framer-motion";
 
 const menuVariants = {
   hidden: { opacity: 0 },

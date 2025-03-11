@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
-
+import { FaStar } from "react-icons/fa";
+import { motion } from "framer-motion";
 const images = ["/Cafe1.png", "/Cafe2.png", "/Cafe3.png"];
 
 export default function ImageSlider() {
