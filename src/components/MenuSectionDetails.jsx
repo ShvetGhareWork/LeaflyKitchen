@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import DetailCards from "./DetailCards.jsx"; // Ensure you import your card component
 import TextHeader from "./TextHeader.jsx";
 import Onscroll from "../Reactbits/OnScroll.jsx";

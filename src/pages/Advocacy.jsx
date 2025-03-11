@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import "../App.css";
 import MenuSectionDetails from "../components/MenuSectionDetails";
-import { motion } from "framer-motion";
 const Advocacy = () => {
   const [fadeOut, setFadeOut] = useState(false);
   const [bgImage, setBgImage] = useState("bg-image-7");

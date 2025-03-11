@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import "../App.css";
-import { motion } from "framer-motion";
 const Aboutus = () => {
   const [fadeOut, setFadeOut] = useState(false);
   const [bgImage, setBgImage] = useState("bg-image-6");
