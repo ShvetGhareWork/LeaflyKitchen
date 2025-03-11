@@ -1,0 +1,40 @@
+{
+    "categories": [
+        {
+            "categoryId": 1,
+            "categoryName": "Main Course",
+            "thumbnailImage": "main_course.jpg",
+            "description": "Hearty and filling main course dishes for every meal."
+        },
+        {
+            "categoryId": 2,
+            "categoryName": "Appetizers",
+            "thumbnailImage": "appetizers.jpg",
+            "description": "Tasty starters to begin your meal experience."
+        },
+        {
+            "categoryId": 3,
+            "categoryName": "Desserts",
+            "thumbnailImage": "desserts.jpg",
+            "description": "Indulgent and sweet treats to end your meal on a high note."
+        },
+        {
+            "categoryId": 4,
+            "categoryName": "Beverages",
+            "thumbnailImage": "beverages.jpg",
+            "description": "Refreshing drinks to complement your meals."
+        },
+        {
+            "categoryId": 5,
+            "categoryName": "Salads",
+            "thumbnailImage": "salads.jpg",
+            "description": "Fresh and healthy salads with vibrant flavors."
+        },
+        {
+            "categoryId": 6,
+            "categoryName": "Soups",
+            "thumbnailImage": "soups.jpg",
+            "description": "Warm and comforting soups for all seasons."
+        }
+    ]
+}

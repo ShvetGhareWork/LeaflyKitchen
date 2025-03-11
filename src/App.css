@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oldenburg&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-repeat: inherit;
+  background-size: cover;
+}
+
+.OnopenFont {
+  font-family: "Oxanium", sans-serif;
+  font-weight: 100;
+  font-size: medium;
+}
+.MenuFont {
+  font-family: "Oxanium", sans-serif;
+
+  font-weight: 500;
+  font-size: x-large;
+}
+
+.MenuFontnew {
+  font-family: "Oxanium", sans-serif;
+
+  font-weight: 500;
+  font-size: xx-large;
+}
+.ScrollFont {
+  font-family: "Oxanium", sans-serif;
+
+  font-weight: 100;
+  font-size: large;
+}
+
+.MenuFont1 {
+  font-family: "Oxanium", sans-serif;
+
+  font-weight: 300;
+  font-size: larger;
+}
+
+.transition-bg {
+  transition: background-image 1s ease-in-out;
+}
+
+.bg-image-1 {
+  background-image: url("/Home-Design.png");
+  background-size: cover;
+}
+.bg-image-2 {
+  background-image: url("/Home-Design-Menu.png");
+  background-size: cover;
+}
+.bg-image-3 {
+  background-image: url("/Home-Design-Season.png");
+  background-size: cover;
+}
+.bg-image-4 {
+  background-image: url("/Home-Design-Inside.png");
+  background-size: cover;
+}
+.bg-image-5 {
+  background-image: url("/Home-Design-Delivery.png");
+  background-size: cover;
+}
+.bg-image-6 {
+  background-image: url("/Home-Design-About.png");
+  background-size: cover;
+}
+.bg-image-7 {
+  background-image: url("/Home-Design-Advocacy.png");
+  background-size: cover;
+}
+.bg-image-8 {
+  background-image: url("/Home-Design-Home.png");
+  background-size: cover;
+}
+
+/* Menu */
+
+/* Smooth fade-in and staggered animation */
+.opacity-0 {
+  opacity: 0;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.translate-y-8 {
+  transform: translateY(8px);
+}
+
+.translate-y-0 {
+  transform: translateY(0);
+}
+
+.transition-opacity {
+  transition: opacity 0.7s ease-out;
+}
+
+.transition-all {
+  transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* Menu */
+
+::-webkit-scrollbar {
+  display: none;
+}

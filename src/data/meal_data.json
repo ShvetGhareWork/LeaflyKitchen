@@ -1,0 +1,34 @@
+{
+    "meals": [
+        {
+            "idMeal": "52772",
+            "strMeal": "Teriyaki Chicken Casserole",
+            "strDrinkAlternate": null,
+            "strCategory": "Chicken",
+            "strArea": "Japanese",
+            "strInstructions": "Preheat oven to 350\u00b0 F. Spray a 9x13-inch baking pan with non-stick spray. Combine soy sauce, water, brown sugar, ginger, and garlic in a saucepan over medium heat. In a small bowl, whisk together the cornstarch and water. Add to the sauce. Cook until thickened. Place chicken in a baking dish. Pour 1 cup of the sauce over the chicken. Bake for 30 minutes. While chicken is baking, cook vegetables in a skillet. Add the cooked rice and chicken to the skillet. Pour remaining sauce and stir until combined.",
+            "strMealThumb": "https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg",
+            "strTags": "Japanese,Chicken,Main",
+            "strYoutube": "https://www.youtube.com/watch?v=4aZr5hZXP_s",
+            "strIngredient1": "soy sauce",
+            "strIngredient2": "water",
+            "strIngredient3": "brown sugar",
+            "strIngredient4": "ground ginger",
+            "strIngredient5": "minced garlic",
+            "strIngredient6": "cornstarch",
+            "strIngredient7": "chicken breasts",
+            "strIngredient8": "stir-fry vegetables",
+            "strIngredient9": "cooked rice",
+            "strMeasure1": "3/4 cup",
+            "strMeasure2": "1/2 cup",
+            "strMeasure3": "1/4 cup",
+            "strMeasure4": "1/2 teaspoon",
+            "strMeasure5": "1/2 teaspoon",
+            "strMeasure6": "4 tablespoons",
+            "strMeasure7": "2",
+            "strMeasure8": "3 cups",
+            "strMeasure9": "2 cups",
+            "strSource": "https://therecipecritic.com/teriyaki-chicken-casserole/"
+        }
+    ]
+}
