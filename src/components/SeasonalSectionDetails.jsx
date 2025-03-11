@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import path from "path";
 import { useNavigate } from "react-router-dom";
-import CardGrid from "./CardGrid";
-import TextHeader from "./TextHeader";
+import CardGrid from "./CardGrid.jsx";
 
 const SeasonalMenu = () => {
   const navigate = useNavigate();

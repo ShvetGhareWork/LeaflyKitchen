@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import "../App.css";
-import FAQs from "../components/FAQs";
+import FAQs from "../components/FAQs.jsx";
 
 const Delivery = () => {
   const [fadeOut, setFadeOut] = useState(false);

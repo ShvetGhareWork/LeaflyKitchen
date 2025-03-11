@@ -1,11 +1,11 @@
 import React from "react";
-import Onopen from "./pages/Onopen";
-import Menu from "./pages/Menu";
-import SeasonalDishes from "./pages/SeasonalDishes";
-import InsideCafe from "./pages/InsideCafe";
-import Delivery from "./pages/Delivery";
-import Aboutus from "./pages/Aboutus";
-import Advocacy from "./pages/Advocacy";
+import Onopen from "./pages/Onopen.jsx";
+import Menu from "./pages/Menu.jsx";
+import SeasonalDishes from "./pages/SeasonalDishes.jsx";
+import InsideCafe from "./pages/InsideCafe.jsx";
+import Delivery from "./pages/Delivery.jsx";
+import Aboutus from "./pages/Aboutus.jsx";
+import Advocacy from "./pages/Advocacy.jsx";
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {

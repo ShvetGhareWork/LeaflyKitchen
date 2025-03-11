@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import "../App.css";
-import SeasonalSectionDetails from "../components/SeasonalSectionDetails";
+import SeasonalSectionDetails from "../components/SeasonalSectionDetails.jsx";
 
 const SeasonalDishes = () => {
   const [fadeOut, setFadeOut] = useState(false);

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import "../App.css";
-import MenuSectionDetails from "../components/MenuSectionDetails";
+import MenuSectionDetails from "../components/MenuSectionDetails.jsx";
 
 const Menu = () => {
   const [fadeOut, setFadeOut] = useState(false);
