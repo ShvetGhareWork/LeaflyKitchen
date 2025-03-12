@@ -43,7 +43,7 @@ body {
 .transition-bg {
   transition: background-image 1s ease-in-out;
 }
-
+/* Form home menu */
 .bg-image-1 {
   background-image: url("/Home-Design.png");
   background-size: cover;
@@ -76,6 +76,32 @@ body {
   background-image: url("/Home-Design-Home.png");
   background-size: cover;
 }
+/* Form home menu */
+
+/* Form Breakfast etc menu */
+
+.bg-image-22 {
+  background-image: url("/Home-Design-breakfast.png");
+  background-size: cover;
+}
+.bg-image-33 {
+  background-image: url("/Home-Design-lunch.png");
+  background-size: cover;
+}
+.bg-image-44 {
+  background-image: url("/Home-Design-snacks.png");
+  background-size: cover;
+}
+.bg-image-55 {
+  background-image: url("/Home-Design-desserts.png");
+  background-size: cover;
+}
+.bg-image-66 {
+  background-image: url("/Home-Design-drinks.png");
+  background-size: cover;
+}
+
+/* Form breakfast etc menu */
 
 /* Menu */
 

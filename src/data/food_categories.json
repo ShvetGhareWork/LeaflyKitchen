@@ -1,40 +1,682 @@
 {
-    "categories": [
-        {
-            "categoryId": 1,
-            "categoryName": "Main Course",
-            "thumbnailImage": "main_course.jpg",
-            "description": "Hearty and filling main course dishes for every meal."
-        },
-        {
-            "categoryId": 2,
-            "categoryName": "Appetizers",
-            "thumbnailImage": "appetizers.jpg",
-            "description": "Tasty starters to begin your meal experience."
-        },
-        {
-            "categoryId": 3,
-            "categoryName": "Desserts",
-            "thumbnailImage": "desserts.jpg",
-            "description": "Indulgent and sweet treats to end your meal on a high note."
-        },
-        {
-            "categoryId": 4,
-            "categoryName": "Beverages",
-            "thumbnailImage": "beverages.jpg",
-            "description": "Refreshing drinks to complement your meals."
-        },
-        {
-            "categoryId": 5,
-            "categoryName": "Salads",
-            "thumbnailImage": "salads.jpg",
-            "description": "Fresh and healthy salads with vibrant flavors."
-        },
-        {
-            "categoryId": 6,
-            "categoryName": "Soups",
-            "thumbnailImage": "soups.jpg",
-            "description": "Warm and comforting soups for all seasons."
-        }
-    ]
+  "breakfast": [
+    {
+      "name": "Avocado Toast",
+      "description": "Smashed avocado on whole-grain toast with cherry tomatoes and hemp seeds.",
+      "healthBenefits": {
+        "Protein": "Hemp seeds add plant-based protein.",
+        "Carbs": "Whole-grain toast provides complex carbs.",
+        "Fats": "Avocado offers heart-healthy fats.",
+        "Vitamins & Minerals": "Avocado is rich in potassium and fiber.",
+        "Overall Benefits": "Boosts energy, supports heart health, and aids digestion."
+      },
+      "price": 300,
+      "bestseller": true,
+      "image": "/avocado.png",
+      "date": "2024-12-01T08:00:00Z"
+    },
+    {
+      "name": "Tofu Scramble",
+      "description": "Scrambled tofu with turmeric, bell peppers, and spinach.",
+      "healthBenefits": {
+        "Protein": "Tofu provides high-quality plant protein.",
+        "Carbs": "Minimal carbs, keeping it light.",
+        "Fats": "Low in fat.",
+        "Vitamins & Minerals": "Turmeric offers anti-inflammatory properties.",
+        "Overall Benefits": "Supports muscle repair, reduces inflammation, and energizes."
+      },
+      "price": 320,
+      "bestseller": false,
+      "image": "/tofu.jpg",
+      "date": "2024-12-02T08:15:00Z"
+    },
+    {
+      "name": "Chia Pudding",
+      "description": "Chia seeds soaked in almond milk, topped with mixed berries.",
+      "healthBenefits": {
+        "Protein": "Chia seeds offer plant-based protein.",
+        "Carbs": "Berries provide natural sugars and fiber.",
+        "Fats": "Minimal fats from chia seeds.",
+        "Vitamins & Minerals": "Rich in antioxidants and omega-3s.",
+        "Overall Benefits": "Supports digestion, boosts immunity, and provides sustained energy."
+      },
+      "price": 280,
+      "bestseller": true,
+      "image": "/pudding.jpg",
+      "date": "2024-12-03T08:30:00Z"
+    },
+    {
+      "name": "Smoothie Bowl",
+      "description": "Acai blend topped with granola, banana slices, and coconut flakes.",
+      "healthBenefits": {
+        "Protein": "Plant-based protein from seeds.",
+        "Carbs": "Fruits provide natural sugars.",
+        "Fats": "Healthy fats from coconut flakes.",
+        "Vitamins & Minerals": "Acai is packed with antioxidants.",
+        "Overall Benefits": "Boosts immunity, provides quick energy, and aids digestion."
+      },
+      "price": 350,
+      "bestseller": false,
+      "image": "/bowl.jpg",
+      "date": "2024-12-04T08:45:00Z"
+    },
+    {
+      "name": "Vegan Pancakes",
+      "description": "Fluffy pancakes made with oat flour and almond milk, served with maple syrup.",
+      "healthBenefits": {
+        "Protein": "Oats provide plant-based protein.",
+        "Carbs": "Oats offer complex carbs for long-lasting energy.",
+        "Fats": "Minimal fats.",
+        "Vitamins & Minerals": "Oats are rich in fiber and iron.",
+        "Overall Benefits": "Supports heart health, boosts energy, and aids digestion."
+      },
+      "price": 360,
+      "bestseller": true,
+      "image": "/vegan.jpg",
+      "date": "2024-12-05T09:00:00Z"
+    },
+    {
+      "name": "Overnight Oats",
+      "description": "Oats soaked overnight in almond milk with chia seeds and fresh fruits.",
+      "healthBenefits": {
+        "Protein": "Chia seeds offer plant-based protein.",
+        "Carbs": "Oats provide complex carbs.",
+        "Fats": "Healthy fats from chia seeds.",
+        "Vitamins & Minerals": "Rich in fiber and antioxidants.",
+        "Overall Benefits": "Boosts energy, supports digestion, and enhances heart health."
+      },
+      "price": 300,
+      "bestseller": false,
+      "image": "/oats.jpg",
+      "date": "2024-12-06T09:15:00Z"
+    },
+    {
+      "name": "Vegan Breakfast Burrito",
+      "description": "Whole wheat tortilla filled with black beans, avocado, and tofu scramble.",
+      "healthBenefits": {
+        "Protein": "Black beans and tofu provide protein.",
+        "Carbs": "Whole wheat tortilla offers complex carbs.",
+        "Fats": "Avocado adds healthy fats.",
+        "Vitamins & Minerals": "Black beans are rich in iron.",
+        "Overall Benefits": "Boosts energy, supports muscle repair, and aids digestion."
+      },
+      "price": 380,
+      "bestseller": true,
+      "image": "/burrito.jpg",
+      "date": "2024-12-07T09:30:00Z"
+    },
+    {
+      "name": "Banana Bread",
+      "description": "Moist banana bread made with almond flour and walnuts.",
+      "healthBenefits": {
+        "Protein": "Walnuts add plant-based protein.",
+        "Carbs": "Bananas provide natural sweetness.",
+        "Fats": "Healthy fats from walnuts.",
+        "Vitamins & Minerals": "Rich in potassium and fiber.",
+        "Overall Benefits": "Boosts energy, supports digestion, and promotes heart health."
+      },
+      "price": 320,
+      "bestseller": false,
+      "image": "/banana.jpg",
+      "date": "2024-12-08T09:45:00Z"
+    },
+    {
+      "name": "Peanut Butter Toast",
+      "description": "Whole wheat toast with natural peanut butter and banana slices.",
+      "healthBenefits": {
+        "Protein": "Peanut butter offers plant-based protein.",
+        "Carbs": "Whole wheat toast provides fiber-rich carbs.",
+        "Fats": "Healthy fats from peanut butter.",
+        "Vitamins & Minerals": "Rich in potassium from bananas.",
+        "Overall Benefits": "Boosts energy, supports heart health, and satisfies hunger."
+      },
+      "price": 270,
+      "bestseller": true,
+      "image": "/butter.jpg",
+      "date": "2024-12-09T10:00:00Z"
+    },
+    {
+      "name": "Vegan Breakfast Sandwich",
+      "description": "Tofu patty, avocado, and spinach in a whole wheat English muffin.",
+      "healthBenefits": {
+        "Protein": "Tofu provides plant-based protein.",
+        "Carbs": "Whole wheat muffin offers complex carbs.",
+        "Fats": "Avocado adds healthy fats.",
+        "Vitamins & Minerals": "Spinach is rich in iron and antioxidants.",
+        "Overall Benefits": "Boosts energy, supports muscle repair, and enhances vitality."
+      },
+      "price": 400,
+      "bestseller": false,
+      "image": "/sand.jpg",
+      "date": "2024-12-10T10:15:00Z"
+    }
+  ],
+  "lunch": [
+    {
+      "name": "Chickpea Spinach Curry",
+      "description": "Hearty chickpeas simmered in a spiced tomato and spinach sauce.",
+      "healthBenefits": {
+        "Protein": "Chickpeas provide plant-based protein.",
+        "Iron": "Spinach boosts iron levels.",
+        "Overall Benefits": "Filling and nutrient-dense."
+      },
+      "price": 300,
+      "bestseller": true,
+      "image": "/curry.png",
+      "date": "2024-12-21T12:00:00Z"
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "description": "Bell peppers filled with quinoa, black beans, and avocado.",
+      "healthBenefits": {
+        "Fiber": "Quinoa and beans add fiber.",
+        "Vitamins": "Bell peppers are rich in vitamin C.",
+        "Overall Benefits": "Colorful and satisfying."
+      },
+      "price": 320,
+      "bestseller": false,
+      "image": "/bell.png",
+      "date": "2024-12-22T12:15:00Z"
+    },
+    {
+      "name": "Zucchini Noodles with Pesto",
+      "description": "Fresh zucchini noodles tossed with basil pesto and cherry tomatoes.",
+      "healthBenefits": {
+        "Low-Carb": "Zucchini noodles are a low-carb option.",
+        "Antioxidants": "Tomatoes add antioxidants.",
+        "Overall Benefits": "Light and refreshing."
+      },
+      "price": 280,
+      "bestseller": false,
+      "image": "/pisto.png",
+      "date": "2024-12-23T12:30:00Z"
+    },
+    {
+      "name": "Sweet Potato Buddha Bowl",
+      "description": "Roasted sweet potatoes, kale, and tahini dressing over quinoa.",
+      "healthBenefits": {
+        "Beta-Carotene": "Sweet potatoes are rich in beta-carotene.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Wholesome and delicious."
+      },
+      "price": 350,
+      "bestseller": true,
+      "image": "/sweet.png",
+      "date": "2024-12-24T12:45:00Z"
+    },
+    {
+      "name": "Vegan Pad Thai",
+      "description": "Rice noodles tossed with tofu, veggies, and a tangy peanut sauce.",
+      "healthBenefits": {
+        "Protein": "Tofu adds plant-based protein.",
+        "Healthy Fats": "Peanut sauce offers healthy fats.",
+        "Overall Benefits": "Comforting and flavorful."
+      },
+      "price": 340,
+      "bestseller": true,
+      "image": "/pad.png",
+      "date": "2024-12-25T13:00:00Z"
+    },
+    {
+      "name": "Mushroom Risotto",
+      "description": "Creamy arborio rice with sautéed mushrooms and a hint of garlic.",
+      "healthBenefits": {
+        "Antioxidants": "Mushrooms are antioxidant-rich.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Rich and comforting."
+      },
+      "price": 370,
+      "bestseller": false,
+      "image": "/mush.png",
+      "date": "2024-12-26T13:15:00Z"
+    },
+    {
+      "name": "Vegan Sushi Rolls",
+      "description": "Nori rolls filled with avocado, cucumber, and marinated tofu.",
+      "healthBenefits": {
+        "Healthy Fats": "Avocado provides heart-healthy fats.",
+        "Minerals": "Nori is rich in iodine.",
+        "Overall Benefits": "Light and nourishing."
+      },
+      "price": 360,
+      "bestseller": false,
+      "image": "/sushi.png",
+      "date": "2024-12-27T13:30:00Z"
+    },
+    {
+      "name": "Cauliflower Tacos",
+      "description": "Crispy cauliflower in soft tortillas with avocado crema.",
+      "healthBenefits": {
+        "Fiber": "Cauliflower adds fiber.",
+        "Vitamins": "Avocados offer vitamin E.",
+        "Overall Benefits": "Crispy and flavorful."
+      },
+      "price": 310,
+      "bestseller": true,
+      "image": "/tacoss.png",
+      "date": "2024-12-28T13:45:00Z"
+    },
+    {
+      "name": "Jackfruit BBQ Sandwich",
+      "description": "Pulled jackfruit in smoky BBQ sauce on a soft bun.",
+      "healthBenefits": {
+        "Fiber": "Jackfruit supports digestion.",
+        "Vitamins": "Rich in vitamin C.",
+        "Overall Benefits": "Satisfying and smoky."
+      },
+      "price": 330,
+      "bestseller": true,
+      "image": "/bbq.png",
+      "date": "2024-12-29T14:00:00Z"
+    },
+    {
+      "name": "Lentil Shepherd’s Pie",
+      "description": "Lentil and veggie filling topped with mashed potatoes.",
+      "healthBenefits": {
+        "Protein": "Lentils provide protein.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Hearty and comforting."
+      },
+      "price": 380,
+      "bestseller": false,
+      "image": "pie.png",
+      "date": "2024-12-30T14:15:00Z"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Green Detox Juice",
+      "description": "A refreshing blend of kale, cucumber, apple, and lemon.",
+      "healthBenefits": {
+        "Hydration": "High water content keeps you hydrated.",
+        "Vitamins & Minerals": "Packed with vitamins A, C, and K.",
+        "Overall Benefits": "Detoxifies and boosts energy levels."
+      },
+      "price": 180,
+      "bestseller": true,
+      "image": "/detox.png",
+      "date": "2024-12-11T12:00:00Z"
+    },
+    {
+      "name": "Golden Turmeric Latte",
+      "description": "Warm almond milk infused with turmeric, ginger, and a hint of black pepper.",
+      "healthBenefits": {
+        "Anti-inflammatory": "Turmeric reduces inflammation.",
+        "Vitamins & Minerals": "Rich in antioxidants.",
+        "Overall Benefits": "Soothing and immune-boosting."
+      },
+      "price": 200,
+      "bestseller": false,
+      "image": "/latte.png",
+      "date": "2024-12-12T12:15:00Z"
+    },
+    {
+      "name": "Matcha Latte",
+      "description": "Smooth oat milk blended with ceremonial-grade matcha.",
+      "healthBenefits": {
+        "Antioxidants": "High in catechins.",
+        "Energy Boost": "Natural caffeine for a gentle energy lift.",
+        "Overall Benefits": "Boosts focus and metabolism."
+      },
+      "price": 220,
+      "bestseller": true,
+      "image": "/matcha.png",
+      "date": "2024-12-13T12:30:00Z"
+    },
+    {
+      "name": "Berry Bliss Smoothie",
+      "description": "Mixed berries blended with almond milk and chia seeds.",
+      "healthBenefits": {
+        "Antioxidants": "Berries combat oxidative stress.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Refreshing and nutrient-dense."
+      },
+      "price": 210,
+      "bestseller": false,
+      "image": "/berrysmoothie.png",
+      "date": "2024-12-14T12:45:00Z"
+    },
+    {
+      "name": "Iced Hibiscus Tea",
+      "description": "Chilled hibiscus tea with a hint of lime.",
+      "healthBenefits": {
+        "Antioxidants": "Rich in polyphenols.",
+        "Hydration": "Keeps you refreshed.",
+        "Overall Benefits": "Supports heart health and reduces blood pressure."
+      },
+      "price": 150,
+      "bestseller": false,
+      "image": "/ice.png",
+      "date": "2024-12-15T13:00:00Z"
+    },
+    {
+      "name": "Almond Date Shake",
+      "description": "Creamy shake made with almond milk, dates, and a pinch of cinnamon.",
+      "healthBenefits": {
+        "Energy Boost": "Dates provide natural sugars.",
+        "Vitamins & Minerals": "Rich in potassium and fiber.",
+        "Overall Benefits": "Sweet, nourishing, and energizing."
+      },
+      "price": 230,
+      "bestseller": true,
+      "image": "/date.png",
+      "date": "2024-12-16T13:15:00Z"
+    },
+    {
+      "name": "Mint Lemonade",
+      "description": "Zesty lemonade infused with fresh mint leaves.",
+      "healthBenefits": {
+        "Hydration": "Keeps you refreshed.",
+        "Digestion": "Mint aids digestion.",
+        "Overall Benefits": "Cooling and revitalizing."
+      },
+      "price": 160,
+      "bestseller": false,
+      "image": "/mint.png",
+      "date": "2024-12-17T13:30:00Z"
+    },
+    {
+      "name": "Chai Spiced Latte",
+      "description": "Plant-based milk brewed with aromatic chai spices.",
+      "healthBenefits": {
+        "Antioxidants": "Boosts immunity.",
+        "Comfort": "Warm and soothing.",
+        "Overall Benefits": "Aromatic and cozy."
+      },
+      "price": 190,
+      "bestseller": false,
+      "image": "/chai.png",
+      "date": "2024-12-18T13:45:00Z"
+    },
+    {
+      "name": "Watermelon Mint Cooler",
+      "description": "Fresh watermelon juice with a splash of mint.",
+      "healthBenefits": {
+        "Hydration": "High water content.",
+        "Vitamins & Minerals": "Rich in vitamin C.",
+        "Overall Benefits": "Refreshing and cooling."
+      },
+      "price": 140,
+      "bestseller": false,
+      "image": "/cool.png",
+      "date": "2024-12-19T14:00:00Z"
+    },
+    {
+      "name": "Coconut Matcha Refresher",
+      "description": "Matcha tea with coconut water for a hydrating twist.",
+      "healthBenefits": {
+        "Hydration": "Electrolyte-rich coconut water.",
+        "Energy Boost": "Natural caffeine from matcha.",
+        "Overall Benefits": "Hydrating and energizing."
+      },
+      "price": 200,
+      "bestseller": true,
+      "image": "ref.png",
+      "date": "2024-12-20T14:15:00Z"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "Chocolate Avocado Mousse",
+      "description": "Rich and creamy mousse made with ripe avocados, cacao powder, and maple syrup.",
+      "healthBenefits": {
+        "Antioxidants": "Cacao is packed with antioxidants.",
+        "Healthy Fats": "Avocados provide heart-healthy fats.",
+        "Overall Benefits": "Indulgent and nourishing."
+      },
+      "price": 250,
+      "bestseller": true,
+      "image": "/avocado.png",
+      "date": "2024-12-11T15:00:00Z"
+    },
+    {
+      "name": "Vegan Cheesecake",
+      "description": "Silky cashew-based cheesecake with a nutty crust.",
+      "healthBenefits": {
+        "Protein": "Cashews provide plant-based protein.",
+        "Dairy-Free": "Gentle on digestion.",
+        "Overall Benefits": "Rich and satisfying."
+      },
+      "price": 280,
+      "bestseller": false,
+      "image": "/cheese.png",
+      "date": "2024-12-12T15:15:00Z"
+    },
+    {
+      "name": "Carrot Walnut Cake",
+      "description": "Moist carrot cake with crunchy walnuts and a hint of cinnamon.",
+      "healthBenefits": {
+        "Vitamins & Minerals": "Carrots provide beta-carotene.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Wholesome and delightful."
+      },
+      "price": 220,
+      "bestseller": true,
+      "image": "/walnut.png",
+      "date": "2024-12-13T15:30:00Z"
+    },
+    {
+      "name": "Mango Coconut Chia Pudding",
+      "description": "Layered chia pudding with fresh mango puree and coconut cream.",
+      "healthBenefits": {
+        "Omega-3s": "Chia seeds are rich in omega-3 fatty acids.",
+        "Hydration": "Coconut cream keeps you hydrated.",
+        "Overall Benefits": "Refreshing and nutrient-dense."
+      },
+      "price": 200,
+      "bestseller": false,
+      "image": "/mango.png",
+      "date": "2024-12-14T15:45:00Z"
+    },
+    {
+      "name": "Almond Flour Brownies",
+      "description": "Fudgy brownies made with almond flour and dark chocolate.",
+      "healthBenefits": {
+        "Gluten-Free": "Suitable for gluten-free diets.",
+        "Antioxidants": "Dark chocolate is rich in antioxidants.",
+        "Overall Benefits": "Decadent and guilt-free."
+      },
+      "price": 240,
+      "bestseller": true,
+      "image": "/brownie.png",
+      "date": "2024-12-15T16:00:00Z"
+    },
+    {
+      "name": "Peanut Butter Bliss Balls",
+      "description": "Bite-sized treats made with oats, dates, and peanut butter.",
+      "healthBenefits": {
+        "Energy Boost": "Provides a quick source of energy.",
+        "Protein": "Peanut butter adds protein.",
+        "Overall Benefits": "Perfect on-the-go snack."
+      },
+      "price": 180,
+      "bestseller": false,
+      "image": "/balls.png",
+      "date": "2024-12-16T16:15:00Z"
+    },
+    {
+      "name": "Lemon Coconut Bars",
+      "description": "Zesty lemon bars with a coconut crust.",
+      "healthBenefits": {
+        "Vitamin C": "Lemons boost immunity.",
+        "Healthy Fats": "Coconut offers healthy fats.",
+        "Overall Benefits": "Light and refreshing."
+      },
+      "price": 210,
+      "bestseller": false,
+      "image": "/bars.png",
+      "date": "2024-12-17T16:30:00Z"
+    },
+    {
+      "name": "Pumpkin Spice Cookies",
+      "description": "Soft cookies infused with pumpkin puree and warming spices.",
+      "healthBenefits": {
+        "Beta-Carotene": "Pumpkin is rich in beta-carotene.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Comforting and aromatic."
+      },
+      "price": 190,
+      "bestseller": false,
+      "image": "/spice.png",
+      "date": "2024-12-18T16:45:00Z"
+    },
+    {
+      "name": "Strawberry Cashew Cream Parfait",
+      "description": "Layers of cashew cream, fresh strawberries, and granola.",
+      "healthBenefits": {
+        "Vitamin C": "Strawberries boost immunity.",
+        "Healthy Fats": "Cashews offer plant-based fats.",
+        "Overall Benefits": "Light and satisfying."
+      },
+      "price": 230,
+      "bestseller": true,
+      "image": "/parfait.png",
+      "date": "2024-12-19T17:00:00Z"
+    },
+    {
+      "name": "Cacao Nib Energy Bites",
+      "description": "No-bake bites with cacao nibs, oats, and almond butter.",
+      "healthBenefits": {
+        "Antioxidants": "Cacao nibs combat oxidative stress.",
+        "Energy Boost": "Perfect for a quick energy lift.",
+        "Overall Benefits": "Nutritious and satisfying."
+      },
+      "price": 170,
+      "bestseller": false,
+      "image": "/nib.png",
+      "date": "2024-12-20T17:15:00Z"
+    }
+  ],
+  "snacks": [
+    {
+      "name": "Spicy Roasted Chickpeas",
+      "description": "Crunchy roasted chickpeas with a kick of paprika and chili powder.",
+      "healthBenefits": {
+        "Protein": "Chickpeas are a great source of plant-based protein.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "High-protein, crunchy snack."
+      },
+      "price": 150,
+      "bestseller": true,
+      "image": "/chick.png",
+      "date": "2024-12-21T15:00:00Z"
+    },
+    {
+      "name": "Kale Chips",
+      "description": "Crispy baked kale chips with a hint of sea salt.",
+      "healthBenefits": {
+        "Vitamins": "Rich in vitamins A, C, and K.",
+        "Antioxidants": "Boosts overall health.",
+        "Overall Benefits": "Light and nutritious snack."
+      },
+      "price": 180,
+      "bestseller": false,
+      "image": "/kale.png",
+      "date": "2024-12-22T15:15:00Z"
+    },
+    {
+      "name": "Avocado Toast Bites",
+      "description": "Mini toasts topped with smashed avocado, cherry tomatoes, and chili flakes.",
+      "healthBenefits": {
+        "Healthy Fats": "Avocado offers heart-healthy fats.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Satisfying and nutritious."
+      },
+      "price": 220,
+      "bestseller": true,
+      "image": "/bites.png",
+      "date": "2024-12-23T15:30:00Z"
+    },
+    {
+      "name": "Vegan Spring Rolls",
+      "description": "Rice paper rolls filled with fresh veggies and tofu, served with peanut dipping sauce.",
+      "healthBenefits": {
+        "Vitamins": "Packed with fresh vegetables.",
+        "Protein": "Tofu provides plant-based protein.",
+        "Overall Benefits": "Light and refreshing."
+      },
+      "price": 250,
+      "bestseller": false,
+      "image": "/rollss.png",
+      "date": "2024-12-24T15:45:00Z"
+    },
+    {
+      "name": "Stuffed Mushrooms",
+      "description": "Mushrooms stuffed with herbed tofu and breadcrumbs.",
+      "healthBenefits": {
+        "Antioxidants": "Mushrooms provide antioxidants.",
+        "Protein": "Tofu adds protein.",
+        "Overall Benefits": "Savory and satisfying."
+      },
+      "price": 230,
+      "bestseller": true,
+      "image": "/stuffed.png",
+      "date": "2024-12-25T16:00:00Z"
+    },
+    {
+      "name": "Zucchini Fritters",
+      "description": "Golden zucchini fritters served with a tangy vegan yogurt dip.",
+      "healthBenefits": {
+        "Fiber": "Zucchini adds fiber.",
+        "Vitamins": "Supports overall health.",
+        "Overall Benefits": "Crispy and delicious."
+      },
+      "price": 210,
+      "bestseller": false,
+      "image": "/zuchi.png",
+      "date": "2024-12-26T16:15:00Z"
+    },
+    {
+      "name": "Hummus and Veggie Sticks",
+      "description": "Creamy hummus served with colorful veggie sticks.",
+      "healthBenefits": {
+        "Protein": "Chickpeas in hummus add protein.",
+        "Vitamins": "Fresh veggies offer vitamins.",
+        "Overall Benefits": "Light and nutritious."
+      },
+      "price": 200,
+      "bestseller": true,
+      "image": "/stick.png",
+      "date": "2024-12-27T16:30:00Z"
+    },
+    {
+      "name": "Sweet Potato Fries",
+      "description": "Baked sweet potato fries with a hint of paprika.",
+      "healthBenefits": {
+        "Beta-Carotene": "Sweet potatoes provide beta-carotene.",
+        "Fiber": "Supports digestion.",
+        "Overall Benefits": "Crispy and nutrient-packed."
+      },
+      "price": 190,
+      "bestseller": false,
+      "image": "/fry.png",
+      "date": "2024-12-28T16:45:00Z"
+    },
+    {
+      "name": "Vegan Nachos",
+      "description": "Corn chips topped with black beans, guacamole, and cashew cheese.",
+      "healthBenefits": {
+        "Protein": "Black beans provide protein.",
+        "Healthy Fats": "Avocado adds healthy fats.",
+        "Overall Benefits": "Comforting and indulgent."
+      },
+      "price": 260,
+      "bestseller": true,
+      "image": "/nach.png",
+      "date": "2024-12-29T17:00:00Z"
+    },
+    {
+      "name": "Roasted Almonds with Spices",
+      "description": "Crunchy almonds roasted with paprika and sea salt.",
+      "healthBenefits": {
+        "Healthy Fats": "Almonds offer heart-healthy fats.",
+        "Protein": "Provides protein.",
+        "Overall Benefits": "Simple and nutritious."
+      },
+      "price": 170,
+      "bestseller": false,
+      "image": "/alo.png",
+      "date": "2024-12-30T17:15:00Z"
+    }
+  ]
 }

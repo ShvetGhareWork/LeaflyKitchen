@@ -1,41 +1,49 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const cards = [
   {
-    title: "🥞 Breakfast",
+    title: "Breakfast",
     copy: "Start your day with wholesome, energizing plant-based goodness!",
     button: "View Menu",
     image: "/Breakfast.png",
+    path: "/breakfast",
   },
   {
-    title: "🍟 Snacks & Sides",
+    title: "Snacks & Sides",
     copy: "Perfect for a light bite or pairing with your main dish!",
     button: "View Menu",
     image: "/Snacks.png",
+    path: "/snacks",
   },
   {
-    title: "🍛 Lunch & Dinner",
+    title: "Lunch & Dinner",
     copy: "Hearty meals packed with nutrients and bold flavors!",
     button: "View Menu",
     image: "/Lunch.png",
+    path: "/lunch",
   },
   {
-    title: "🍰 Desserts",
+    title: "Desserts",
     copy: "It's the desert you've always dreamed of",
     button: "View Menu",
     image: "/Dessert.png",
+    path: "/desserts",
   },
   {
-    title: "🍹 Drinks",
+    title: "Drinks",
     copy: "Refresh and recharge with our organic, handcrafted beverages!",
     button: "View Menu",
     image: "/Drinks.png",
+    path: "/drinks",
   },
 ];
 
-const DetailCard = ({ title, copy, button, image }) => {
+const DetailCard = ({ title, copy, button, image, path }) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="relative flex items-end p-4 w-full h-72 text-white bg-gray-900 shadow-lg overflow-hidden rounded-lg group">
+    <div className="relative flex items-end p-4 w-full h-72 text-white bg-gray-900 shadow-lg overflow-hidden rounded-lg group cursor-pointer">
       {/* Background Image */}
       <div
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
@@ -51,7 +59,10 @@ const DetailCard = ({ title, copy, button, image }) => {
         <p className="mt-2 text-sm italic opacity-0 transition-opacity duration-500 group-hover:opacity-100">
           {copy}
         </p>
-        <button className="mt-4 px-4 py-2 text-xs font-bold uppercase bg-black text-white rounded shadow-md hover:bg-gray-800 transition-all duration-300">
+        <button
+          onClick={() => navigate(path)}
+          className="mt-4 px-4 py-2 text-xs font-bold uppercase bg-black text-white rounded shadow-md hover:bg-gray-800 transition-all duration-300"
+        >
           {button}
         </button>
       </div>
